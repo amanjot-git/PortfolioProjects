@@ -1,31 +1,26 @@
 /*
 Exploring COVID-19 Data Using Advanced SQL Techniques
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 In this data exploration project, we leverage a variety of advanced SQL skills to analyze and gain insights from COVID-19 data.
+
 Our toolkit includes techniques such as Joins, Common Table Expressions (CTEs), Temporary Tables, Window Functions, Aggregate Functions, Creating Views, and Data Type Conversions.
+
 Let's dive into the details of how these skills were applied in our exploration:
 
-Joins: We employ SQL joins to combine data from multiple tables, allowing us to integrate information from different sources. 
-This is crucial in COVID-19 data analysis, as it enables us to correlate information such as infection rates, testing, and demographics.
+Joins: We employ SQL joins to combine data from multiple tables, allowing us to integrate information from different sources. This is crucial in COVID-19 data analysis, as it enables us to correlate information such as infection rates, testing, and demographics.
 
-Common Table Expressions (CTEs): CTEs help us create temporary result sets within our SQL queries.
-They enhance the readability of complex queries by breaking them down into manageable, named subqueries.
-In our exploration, CTEs assist in organizing and structuring data before performing further operations.
+Common Table Expressions (CTEs): CTEs help us create temporary result sets within our SQL queries.They enhance the readability of complex queries by breaking them down into manageable, named subqueries.In our exploration, CTEs assist in organizing and structuring data before performing further operations.
 
-Temporary Tables: Temporary tables are used to store intermediate results during our analysis. 
-They offer a convenient way to hold data temporarily, enabling us to perform multiple operations on the same data without the need to repeatedly query the source tables.
+Temporary Tables: Temporary tables are used to store intermediate results during our analysis. They offer a convenient way to hold data temporarily, enabling us to perform multiple operations on the same data without the need to repeatedly query the source tables.
 
-Window Functions: Window functions allow us to perform calculations across a set of rows related to the current row.
-In the context of COVID-19 data, we use window functions to calculate moving averages, ranking, and other trend-related analyses.
+Window Functions: Window functions allow us to perform calculations across a set of rows related to the current row. In the context of COVID-19 data, we use window functions to calculate moving averages, ranking, and other trend-related analyses.
 
-Aggregate Functions: These functions help summarize data by performing calculations like sum, average, count, etc. 
-We use aggregate functions to calculate key statistics such as total cases, deaths, and recovery rates at different levels of granularity.
+Aggregate Functions: These functions help summarize data by performing calculations like sum, average, count, etc. We use aggregate functions to calculate key statistics such as total cases, deaths, and recovery rates at different levels of granularity.
 
-Creating Views: Views provide a way to create virtual tables that simplify complex queries or hide sensitive data. 
-We create views to encapsulate frequently used queries, making our exploration more efficient and maintaining data consistency.
+Creating Views: Views provide a way to create virtual tables that simplify complex queries or hide sensitive data. We create views to encapsulate frequently used queries, making our exploration more efficient and maintaining data consistency.
 
-Converting Data Types: Data from various sources often comes in different formats and data types. Converting data types is essential to ensure that data is compatible and can be effectively analyzed. 
-In our exploration, we convert data types as needed to perform calculations and comparisons.
+Converting Data Types: Data from various sources often comes in different formats and data types. Converting data types is essential to ensure that data is compatible and can be effectively analyzed. In our exploration, we convert data types as needed to perform calculations and comparisons.
 
 By combining these advanced SQL techniques, we gain valuable insights into COVID-19 trends, demographics, and patterns. This data exploration equips us with the knowledge to make informed decisions and contribute to efforts aimed at managing and mitigating the impact of the pandemic.
 
